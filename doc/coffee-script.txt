@@ -94,6 +94,13 @@ Set default options |CoffeeLint| should pass to {coffeelint}.
 >
 	let coffee_lint_options = '-f lint.json'
 <
+						*g:coffee_cute*
+Replaces various keywords with UTF-8 symbols. For instance, "is not" becomes
+"≢", "and" becomes "∧" and "or" becomes "∨", et cetera. Disabled by default,
+can be enabled with:
+>
+	let coffee_cute = 1
+<
 
 Syntax Highlighting~
 						*ft-coffee-script-syntax*
